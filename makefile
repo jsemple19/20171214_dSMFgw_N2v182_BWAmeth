@@ -13,6 +13,7 @@ methIndGenomeFiles := $(addsuffix ${genomefile}.bwameth.ct2, .sa .amb .ann .pac 
 bname :=  $(addprefix 180126_SNK268_A_L001_JIB-, 1 2 3 4)
 longbname := $(addsuffix _R1, $(bname)) $(addsuffix _R2, $(bname))
 
+#fileList=( $(cat fileList.txt) )
 
 #list of the final output files
 objects := 	${methIndGenomeFiles} \
